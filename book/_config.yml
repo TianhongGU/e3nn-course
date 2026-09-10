@@ -60,12 +60,19 @@ html:
   use_repository_button: true
   use_edit_page_button: true
   announcement: "This course is under active development. We welcome your feedback and contribution."
+  analytics:
+    google_analytics_id: G-3HKTZBDQNC
   extra_footer: |
     <p>
       Built with <a href="https://jupyterbook.org" target="_blank"
         rel="noopener noreferrer">Jupyter Book</a> ·
       Course material by <a href="https://molssi.org" target="_blank"
         rel="noopener noreferrer">MolSSI</a>.
+    </p>
+    <p>
+      Supported by the National Science Foundation under grant
+      <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2136142"
+        target="_blank" rel="noopener noreferrer">CHE-2136142</a>.
     </p>
 
 sphinx:
